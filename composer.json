@@ -1,0 +1,11 @@
+{
+  "name": "tronsha/dsa-nlt-savegame-editor",
+  "description": "DSA NLT Savegame Editor",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Stefan Hüsges",
+      "homepage": "http://www.mpcx.net"
+    }
+  ]
+}
