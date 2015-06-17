@@ -1,6 +1,11 @@
 DSA NLT Savegame Editor
 =======================
 
+## Info
+
+* [Characters][3]
+* [Items][4]
+
 ## Creator
 
 **Stefan Hüsges**
@@ -15,3 +20,5 @@ DSA NLT Savegame Editor
 
 [1]: http://www.mpcx.net
 [2]: https://github.com/tronsha
+[3]: http://nlt-hilfe.crystals-dsa-foren.de/page.php?25
+[4]: http://nlt-hilfe.crystals-dsa-foren.de/page.php?24
