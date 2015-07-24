@@ -1,3 +1,14 @@
+<?php
+
+require_once('../vendor/autoload.php');
+
+use \Editor\Editor;
+
+$editor = new Editor;
+
+$editor->loadFile('../savegames/dsa3/START.GAM');
+
+?>
 <html>
 <head>
     <meta charset="utf-8">
@@ -11,6 +22,22 @@
 </head>
 <body>
 <h1>Nordlandtrilogie</h1>
+
+<?php
+
+var_dump($editor->getChars());
+
+//foreach ($editor->getChars() as $char) {
+//    $name = substr($char, 0x0000, 16);
+//    if (trim($name)) {
+//        echo '<h2 class="name">' . $name . '</h2>';
+//        $typeValue = hex(substr($char, 0x0021, 1));
+//        $genderValue = hex(substr($char, 0x0022, 1));
+//        echo '<p class="typ">' . $type[$genderValue][$typeValue] . '</p>';
+//    }
+//}
+
+?>
 
 </body>
 </html>
