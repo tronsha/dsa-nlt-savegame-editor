@@ -1,7 +1,7 @@
 DSA NLT Savegame Editor
 =======================
 
-![](fanprojekt.png =250x)
+<img src=fanprojekt.png width=200 />
 
 ## Info
 
